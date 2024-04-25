@@ -50,7 +50,7 @@ import {
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Figma Designer",
       icon: backend,
     },
     {
@@ -120,53 +120,51 @@ import {
       company_name: "Ubn Jr",
       icon: ubn_jr,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "September 2023 - ",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "I've recently begun an internship after completing training in frontend development. ",
+        "During my studies, I focused on several key technologies and languages, including HTML, CSS, JavaScript, React.js, and TypeScript.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Frontend Developer",
+      company_name: "CTO-LAB",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2024 - ",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
+        "Taking education in artificial intelligence engineering.",
       ],
     },
     {
       title: "Web Developer",
-      company_name: "Shopify",
+      company_name: "OctopOS Prime",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "April 2024 - ",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "I joined a team dedicated to building robots, where I serve as a web developer.",
+        "In this role, I have learned and taught many things through teamwork.",
+        "It has also given me the opportunity to understand the value of working collaboratively.",
       ],
     },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    // {
+    //   title: "Full stack Developer",
+    //   company_name: "Meta",
+    //   icon: meta,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2023 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
   ];
   
   const testimonials = [
@@ -198,67 +196,67 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Tic Toc Toe Game",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This project uses artificial intelligence to create a Tic Tac Toe game, demonstrating AI's capacity to generate essential components like visuals and game mechanics. Developed with React.js, it lets players face off against the computer, with local storage preserving player data for convenience.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "css",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/samiigll/tic-tac-toe-game",
     },
     {
-      name: "Job IT",
+      name: "Shopping Cart",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "I've created a JavaScript-based shopping cart that leverages the Fetch API. This shopping cart allows you to add and remove items with ease. Because it fetches products from an API in real-time, you can be sure the product information is always current.",
       tags: [
         {
-          name: "react",
+          name: "fetchapi",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "css",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/samiigll/shopping-cart",
     },
     {
       name: "Trip Guide",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "I built this project using HTML, CSS, and JavaScript. To retrieve real-time weather information, I used the weather API from openweathermap.org.",
       tags: [
         {
-          name: "nextjs",
+          name: "api",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "css",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/samiigll/weather_forecast",
     },
   ];
   
